@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body {
     font-family: 'Rubik', sans-serif;
 }
+
 .container {
     width: 500px;
     margin: auto;
@@ -65,9 +68,9 @@ header {
     display: flex;
     align-items: center;
     padding: 30px;
-margin-top: 50px;
-box-shadow: 0px 5px 20px 0px #1B6C7240;
-border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0px 5px 20px 0px #1B6C7240;
+    border-radius: 10px;
 
     h2 {
         font-size: 84px;
@@ -86,15 +89,18 @@ border-radius: 10px;
         margin: 15px 0;
     }
 }
+
 .Pogoda {
     color: white;
 }
+
 .footer {
     width: 100%;
     background: #E3F1EE;
     margin: auto;
     height: 35px;
 }
+
 .foot {
     /* text-align: center; */
     margin-top: 70px;
@@ -102,6 +108,7 @@ border-radius: 10px;
     align-items: center;
     justify-content: center;
 }
+
 .card2 {
     width: 340px;
     height: 15px;
