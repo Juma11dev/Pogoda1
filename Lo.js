@@ -20,8 +20,12 @@ button.addEventListener('click', () => {
 })
 
 document.getElementById('izmenaTempButton').addEventListener('click', function() {
-    document.getElementById('temperature').innerText = '23c°';
+    document.getElementById('temperature').innerHTML = '6 <span>c°</span>';
 });
+document.getElementById('izmenaTempButton').addEventListener('click', function() {
+    document.getElementById('temperature2').innerHTML = '33 <span>c°</span>';
+});
+//////////////
 
 document.getElementById('izmenaTempButton').addEventListener('click', function() {
     document.getElementById('dojd').innerText = 'Дождь';
@@ -39,6 +43,7 @@ document.getElementById('izmenaTempButton').addEventListener('click', function()
 document.getElementById('izmenaTempButton').addEventListener('click', function() {
     document.getElementById('surot').src = 'image/rain2.png';
 });
+
 
 function getWeather(cityName = "Bishkek") {
     fetch(url + cityName + api_key)

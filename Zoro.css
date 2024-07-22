@@ -102,3 +102,12 @@ border-radius: 10px;
     align-items: center;
     justify-content: center;
 }
+.card2 {
+    width: 340px;
+    height: 15px;
+    background-color: #FFFFFF;
+    margin-left: 81px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 5px 20px 0px #1B6C7240;
+    border-color: black;
+}
